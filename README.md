@@ -54,6 +54,6 @@ The pipeline uses GitHub Actions secrets for AWS credentials, ensuring sensitive
 
 ## Contact
 
-- LinkedIn: [Leo Lerma] (https://www.linkedin.com/in/leonardo-lerma/)
+- LinkedIn: [Leo Lerma](https://www.linkedin.com/in/leonardo-lerma/)
 
 Thank you for exploring my professional background. I look forward to any opportunities for collaboration or professional growth.
