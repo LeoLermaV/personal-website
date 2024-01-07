@@ -8,7 +8,6 @@ jobs:
   build-and-deploy:
     name: Build and Deploy
     runs-on: ubuntu-latest
-
     env:
       BUCKET: ${{ secrets.BUCKET }}
       REGION: ${{ secrets.REGION }}
