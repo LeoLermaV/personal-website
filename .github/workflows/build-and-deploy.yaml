@@ -9,9 +9,9 @@ jobs:
     name: Build and Deploy
     runs-on: ubuntu-latest
 
-      env:
-        BUCKET: ${{ secrets.BUCKET }}
-        REGION: ${{ secrets.REGION }}
+    env:
+      BUCKET: ${{ secrets.BUCKET }}
+      REGION: ${{ secrets.REGION }}
 
     steps:
       - name: Checkout code
