@@ -20,6 +20,7 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v1
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          # @todo this is a typo in the github actions secret, I misstyped ACCESS. fix it later
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACESS_KEY }}
           aws-region: ${{ env.REGION }}
 
