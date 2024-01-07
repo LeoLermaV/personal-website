@@ -1,52 +1,70 @@
+:root {
+  --primary-color: #333;
+  --secondary-color: #666;
+  --background-color: #f4f4f4;
+  --link-color: #0000ff;
+  --highlight-color: #3a7fff;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+  font-family: 'Helvetica', Arial, sans-serif;
+  margin: 40px;
+  padding: 0;
+  background-color: var(--background-color);
+  color: var(--primary-color);
+}
+
+header {
+  min-height: 70px;
+  margin: auto;
+  max-width: 1200px;
+}
+
+@media (min-width: 768px) {
+  header{
+    padding: 30px;
   }
+}
 
-  header {
-    padding-top: 30px;
-    min-height: 70px;
-    margin: auto;
-    max-width: 1200px;
 
-  }
+.container {
+  display: block;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+}
 
+@media (min-width: 768px) {
   .container {
     display: flex;
-    max-width: 1200px;
-    margin: auto;
-    overflow: hidden;
   }
+}
 
-  h1 {
-    text-align: center;
-    color: #333;
-    padding: 20px 0;
-  }
+h1,
+h3 {
+  color: var(--primary-color);
+}
 
-  h2 {
-    color: #333;
-    padding: 10px 0;
-    margin-top: 20px;
-  }
+h2 {
+  padding: 10px 0;
+  margin-top: 20px;
+  color: var(--highlight-color)
+}
 
-  p {
-    font-style: italic;
-    color: #666;
-  }
+p {
+  font-style: italic;
+  color: var(--secondary-color);
+}
 
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  ul li {
-    padding: 5px;
-  }
+ul {
+  list-style: none;
+  padding: 0;
+}
 
-  a {
-    color: blue;
-  }
+ul li {
+  padding: 5px;
+}
+
+a {
+  color: var(--link-color);
+}
