@@ -38,6 +38,10 @@ header {
   .container {
     display: flex;
   }
+
+  .container section {
+    padding: 0 10px;
+  }
 }
 
 h1,
