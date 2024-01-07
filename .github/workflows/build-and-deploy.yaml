@@ -11,6 +11,7 @@ jobs:
     env:
       BUCKET: ${{ secrets.BUCKET }}
       REGION: ${{ secrets.REGION }}
+      DISTRIBUTION_ID: ${{ secrets.DISTRIBUTION_ID }}
 
     steps:
       - name: Checkout code
@@ -27,3 +28,9 @@ jobs:
       - name: Copy files to production website
         run: |
           aws s3 sync . s3://${{env.BUCKET}} --delete --exclude ".git/*" --exclude ".github/*" --exclude "README.md"
+      
+      -name: Invalidate CloudFront cache
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id ${{ env.DISTRIBUTION_ID }} \
+            --paths "/*"
