@@ -57,3 +57,7 @@ The pipeline uses GitHub Actions secrets for AWS credentials, ensuring sensitive
 - LinkedIn: [Leo Lerma](https://www.linkedin.com/in/leonardo-lerma/)
 
 Thank you for exploring my professional background. I look forward to any opportunities for collaboration or professional growth.
+
+## Inspiration
+
+This resume site was inspired by [motherfuckingwebsite.com](motherfuckingwebsite.com) — a reminder that simplicity, speed, and clarity are powerful design principles. I aimed to keep this site fast, readable, and free of unnecessary bloat.
