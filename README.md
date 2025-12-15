@@ -60,4 +60,4 @@ Thank you for exploring my professional background. I look forward to any opport
 
 ## Inspiration
 
-This resume site was inspired by [motherfuckingwebsite.com](motherfuckingwebsite.com) — a reminder that simplicity, speed, and clarity are powerful design principles. I aimed to keep this site fast, readable, and free of unnecessary bloat.
+This resume site was inspired by [https://motherfuckingwebsite.com](https://motherfuckingwebsite.com) — a reminder that simplicity, speed, and clarity are powerful design principles. I aimed to keep this site fast, readable, and free of unnecessary bloat.
